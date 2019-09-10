@@ -1,13 +1,17 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+// import Books from "./pages/Search";
+// import Books from "./pages/Saved";
+import Nav from "./components/Nav";
 
-class App extends Component {
-  render() {
-    return (
-     
-    );
-  }
+
+function App() {
+  return (
+    <div>
+       <Nav />
+      <Saved />
+      <Search />
+    </div>
+  );
 }
 
 export default App;
