@@ -1,16 +1,18 @@
 import React from "react";
-// import Books from "./pages/Search";
+import Search from "./pages/Search";
 // import Books from "./pages/Saved";
 import Nav from "./components/Nav";
 
 
 function App() {
   return (
+    <Router>
     <div>
        <Nav />
-      <Saved />
+      {/* <Saved /> */}
       <Search />
     </div>
+    </Router>
   );
 }
 
