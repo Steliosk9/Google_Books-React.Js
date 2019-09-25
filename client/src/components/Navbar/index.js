@@ -3,40 +3,34 @@ import React from "react";
 function Navbar(props) {
   return (
     <ul className="nav nav-tabs">
+  {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
+   
+       <li className="nav-item">
+      
+         <a
+          // href="#"
+          // onClick={() => props.handlePageChange("About")}
+          // className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
+        >
+         Google Books 
+        </a>
+      </li> 
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
+          href="#Search"
+          onClick={() => props.handlePageChange("Search")}
+          className={props.currentPage === "Search" ? "nav-link active" : "nav-link"}
         >
-          Home
+       Search
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
+          href="#display"
+          onClick={() => props.handlePageChange("Display")}
+          className={props.currentPage === "Display" ? "nav-link active" : "nav-link"}
         >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#blog"
-          onClick={() => props.handlePageChange("Blog")}
-          className={props.currentPage === "Blog" ? "nav-link active" : "nav-link"}
-        >
-          Blog
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
+       Display
         </a>
       </li>
     </ul>
@@ -44,3 +38,5 @@ function Navbar(props) {
 }
 
 export default Navbar;
+
+

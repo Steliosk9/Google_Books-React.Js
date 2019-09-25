@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-// import Jumbotron from "../components/Jumbotron";
 import Navbar from "../components/Navbar";
-
+import Jumbotron from "../components/Jumbotron"
+import SearchForm from "../components/SearchForm";
 
 
 class Search extends Component {
@@ -10,7 +10,11 @@ class Search extends Component {
 
 render(){
 return(
+<div>
 < Navbar />
+< Jumbotron />
+< SearchForm />
+</div>
 )
 }
 }
