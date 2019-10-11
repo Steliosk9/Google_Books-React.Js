@@ -1,15 +1,8 @@
 import React from "react";
+import "./style.css";
 
-function Jumbotron (props) {
-
-    return (
-      <div className="jumbotron jumbotron-fluid">
-      <div className = "container">
-         <h1 className = "display-4">(React) Google Books Search</h1>
-         <p className="lead">Search and save books of interest</p>
-      </div>
-      </div>
-    );
+function Jumbotron({ children }) {
+  return <div className="jumbotron mt-4">{children}</div>;
 }
 
 export default Jumbotron;
