@@ -1,5 +1,5 @@
 
-## About This App
+## 'About This App'
 
 This is a react app which allows users to search and save books using a google book API.
 
