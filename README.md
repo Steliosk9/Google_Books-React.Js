@@ -19,25 +19,7 @@ This is a react app which allows users to search and save books using a google b
 
 ## Pre-Requisites
 
+1. Node - use this site to install node into your computer: https://nodejs.org/en/download/ *to check if node is installed type node -v into your terminal.<br>
+2. NPM or Yarn (https://www.npmjs.com/) - *Node Package Manager. Use this site to assist in downloading packages or modules.
+*Install dependencies using npm install or yarn install.
 
-**Node - *use this site to install node into your computer: https://nodejs.org/en/download/ *to check if node is installed type node -v into your terminal. If installed it will print the version number on the screen.
-** NPM or Yarn (https://www.npmjs.com/) - *Node Package Manager. Use this site to assist in downloading packages or modules.
-*Install dependencies using npm install.
-
-```
-yarn install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
