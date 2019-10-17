@@ -1,9 +1,9 @@
 
-## 'About This App'
+## `About This App`
 
 This is a react app which allows users to search and save books using a google book API.
 
-## Getting Started 
+##  `Getting Started `
 
 1. Clone repository. Click on the clone button next to the repository .<br>
 2. Open Terminal and git clone (paste) into directory of your choice.<br>
@@ -17,13 +17,13 @@ This is a react app which allows users to search and save books using a google b
    validates it and passes it through the models.<br>
 
 
-## Pre-Requisites
+## `Pre-Requisites`
 
 1. Node - use this site to install node into your computer: https://nodejs.org/en/download/ *to check if node is installed type node -v into your terminal.<br>
 2. NPM or Yarn (https://www.npmjs.com/) - *Node Package Manager. Use this site to assist in downloading packages or modules.
 *Install dependencies using npm install or yarn install.
 
-##Built With
+## `Built With`
 
 **React** - Component based Javascript library used for creating interactive user interfaces specifically for single page layouts.<br>
 **Node** - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.<br>
