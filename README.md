@@ -25,13 +25,13 @@ This is a react app which allows users to search and save books using a google b
 
 ## `Built With`
 
-**React** - Component based Javascript library used for creating interactive user interfaces specifically for single page layouts.<br>
-**Node** - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.<br>
-**Javascript** - JavaScript is the programming language of HTML and the Web.<br>
-**JSON**- Javascript object notation, syntax for storing and exchanging information.<br>
-**Express** - Node.js web app framework designed to make developing websites, web apps, & API's much easier.<br>
-**MVC** - The Model-View-Controller is an architectural pattern that separates an application into three main logical components: the             model, the view, and the controller.<br>
-**MongoDB** - A cross-platform document-oriented database program,classified as a NoSQL database program uses<br>                    JSON-like documents with schema.<br>
-**Mongoose** - An object modeling tool for MongoDB. Manages relationships between data and translates between <br>                    objects in code and the representation of them in MongoDB.<br>
-**Axios** - Promise-based HTTP client for javascript that can be used in the front and backend of an application.<br>
-**Heroku** - A cloud based platform that lets companies build, deliver, monitor and scale applications.<br>
+- **React** - Component based Javascript library used for creating interactive user interfaces specifically for single page layouts.<br>
+- **Node** - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.<br>
+- **Javascript** - JavaScript is the programming language of HTML and the Web.<br>
+- **JSON**- Javascript object notation, syntax for storing and exchanging information.<br>
+- **Express** - Node.js web app framework designed to make developing websites, web apps, & API's much easier.<br>
+- **MVC** - The Model-View-Controller is an architectural pattern that separates an application into three main logical components: the             model, the view, and the controller.<br>
+- **MongoDB** - A cross-platform document-oriented database program,classified as a NoSQL database program uses<br>                    - JSON-like documents with schema.<br>
+- **Mongoose** - An object modeling tool for MongoDB. Manages relationships between data and translates between <br>                    objects in code and the representation of them in MongoDB.<br>
+- **Axios** - Promise-based HTTP client for javascript that can be used in the front and backend of an application.<br>
+- **Heroku** - A cloud based platform that lets companies build, deliver, monitor and scale applications.<br>
