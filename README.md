@@ -23,3 +23,14 @@ This is a react app which allows users to search and save books using a google b
 2. NPM or Yarn (https://www.npmjs.com/) - *Node Package Manager. Use this site to assist in downloading packages or modules.
 *Install dependencies using npm install or yarn install.
 
+##Built With
+
+React - Component based Javascript library used for creating interactive user interfaces specifically for single page layouts.<br>
+Node - As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.<br>
+Javascript - JavaScript is the programming language of HTML and the Web.<br>
+JSON - Javascript object notation, syntax for storing and exchanging information.<br>
+Express - Node.js web app framework designed to make developing websites, web apps, & API's much easier.<br>
+MVC - The Model-View-Controller is an architectural pattern that separates an application into three main logical components: the model, the view, and the controller.<br>
+Mongoose - An object modeling tool for MongoDB. Manages relationships between data and translates between objects in code and the representation of them in MongoDB.<br>
+Axios - Promise-based HTTP client for javascript that can be used in the front and backend of an application.<br>
+Heroku - A cloud based platform that lets companies build, deliver, monitor and scale applications.<br>
