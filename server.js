@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/booksapp",
+  process.env.MONGODB_URI || "mongodb://stelios:2109525789Kk9@ds335678.mlab.com:35678/heroku_b13hcljw",
   {
     useCreateIndex: true,
     useNewUrlParser: true
